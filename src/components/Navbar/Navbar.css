@@ -1,0 +1,41 @@
+.Navbar_container{
+    padding-top: 1rem;
+    background-color: black;
+    display:flex;
+    flex-direction: column;
+    width:100wh;
+    height:4rem;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+.Navbar_content{
+    padding-left: 70rem;
+    color: white;
+   
+}
+.nav-menu{
+    display: flex;
+    flex-direction: row;
+}
+.nav-item{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:1rem;
+    display:flex;
+    flex-direction: row;
+    padding:0.5rem
+}
+.nav-menu a {
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:1.5rem;
+}
+.nav-item a:hover {
+    color:rgb(45, 207, 126);
+    text-decoration: underline;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+  }
+  

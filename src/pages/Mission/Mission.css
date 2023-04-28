@@ -1,0 +1,30 @@
+.Landing_page3{
+    background-color: black;
+    height: 100vh;
+    width: 100wh;
+    display: flex;
+    flex-direction: row;
+}
+.Landing_page3_image {
+   padding-left: 4rem;
+}
+
+.Landing_page3_image img{
+    height: 100vh;
+}
+.Landing_page3_content{
+   padding-top: 5rem;
+   padding-left: 3rem;
+   color: white;
+   font-family: 'Inter';
+   font-style:italic;
+   font-size: 2rem;
+}
+.Landing_page3_content_header{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3rem;
+}
+.Landing_page3_content_text_box{
+    height:35rem;
+    width:52.5rem;
+}
